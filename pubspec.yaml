@@ -1,0 +1,41 @@
+name: specvuz_gesture_interceptor
+description: Перехват нажатий на экран с последующим составление статистики
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  flutter_overlay_window: ^0.4.1
+
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.8
+  flutter_accessibility_service: ^0.2.2
+  calendar_timeline: ^1.1.2
+  flutter_heat_map: ^1.2.1
+  path_provider: ^2.0.14
+  flutter_foreground_task: ^3.7.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/background.png
+
